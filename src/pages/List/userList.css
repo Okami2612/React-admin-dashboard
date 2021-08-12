@@ -1,0 +1,34 @@
+.userList{
+    flex: 5;
+}
+.tableUser-img{
+    width: 45px;
+    height: 45px;    
+    border-radius: 10px;    
+}
+.tableAction-edit{    
+    color: #2874a6;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.tableAction-del{
+    color: #cb4335;
+    cursor: pointer;
+}
+.create-user{
+    margin: 30px;
+    padding: 15px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #191970;
+    background-color: #6495ED;
+    cursor: pointer;
+}
+.create-user:hover{
+    border: 1px solid #6495ED;
+    background-color: #fff;
+    color: #191970;
+}

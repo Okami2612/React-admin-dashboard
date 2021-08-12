@@ -1,0 +1,142 @@
+.userDetails {
+  flex: 5;
+  padding: 20px;
+}
+.user-title-container {
+  display: flex;
+  justify-content: space-between;
+}
+.user-add-btn {
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #85c1e9;
+  color:  #2874a6;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  height: 50px;
+  cursor: pointer;
+}
+.user-add-btn:hover{
+    background-color: transparent;
+    color: #2874a6;
+    border: 1px solid;
+}
+.user-container{
+    display: flex;
+}
+.user-show{
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: 5px 5px 15px 5px #d5d8dc; 
+    box-shadow: 5px 5px 15px 5px #d5d8dc;
+}
+.user-update{
+    flex: 2;
+    padding: 20px;
+    -webkit-box-shadow: 5px 5px 15px 5px #d5d8dc; 
+    box-shadow: 5px 5px 15px 5px #d5d8dc;
+    margin-left: 20px;
+}
+.user-show-top{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.user-show-top img{ 
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.user-show-top-title{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+.user-show-top-title .show-username{
+    font-size: 20px;
+    color: #2874a6;
+    font-weight: 600;
+}
+.user-show-bottom{
+    padding: 20px;
+}
+.bottom-info-title{
+    font-size: 18px;
+    font-weight: 600;
+    color: #85c1e9;
+    margin-bottom: 15px;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+.user-info .user-info-icon{
+    margin-right: 20px;
+}
+.user-update-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #2874a6;
+}
+.user-update-form{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.user-update-item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.user-update-item label{
+    font-size: 18px;
+    font-weight: 600;
+    color: #708090;
+}
+.user-update-input{
+    font-size: 14px;
+    margin-top: 5px;
+    border: none;
+    border-bottom: 1px solid #2F4F4F;
+    outline: none;
+}
+.user-update-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.user-update-upload{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.user-update-upload img{
+    width: 250px;
+    height: 250px;
+}
+.user-update-icon{    
+    margin-top: 10px;
+    color: #6495ED;
+    cursor: pointer;
+}
+.user-update-upload svg{
+    font-size: 35px;
+}
+.user-update-btn{
+    outline: none;
+    background-color: #6495ED;
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #191970;
+}
+.user-update-btn:hover{
+    border: 1px solid #6495ED;
+    background-color: #fff;
+    color: #191970;
+}

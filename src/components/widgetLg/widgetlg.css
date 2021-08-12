@@ -1,0 +1,51 @@
+.widgetLg{
+    flex: 2;
+    -webkit-box-shadow: 5px 5px 15px 5px #d5d8dc; 
+    box-shadow: 5px 5px 15px 5px #d5d8dc;
+    padding: 20px;
+    margin: 10px;
+}
+.widgetLg-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.widgetLg-table{
+    width: 100%;
+    padding: 20px;
+}
+.widgetLg-th{
+    text-align: left;
+    padding: 10px;
+}
+.widgetLg-user{
+    display: flex;
+    align-items: center;
+    padding: 8px 0 8px;
+}
+.widgetLg-name{
+    font-weight: 500;
+}
+.widgetLg-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.widgetLg-status Button{    
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;    
+}
+.widgetLg-status .widgetLg-btnApproved{
+    background-color: #82e0aa;
+    color: #239b56;
+}
+.widgetLg-status .widgetLg-btnDeclined{
+    background-color: #e59866;
+    color: #873600;
+}
+.widgetLg-status .widgetLg-btnPending{
+    background-color: #aed6f1;
+    color: #21618c;
+}
